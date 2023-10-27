@@ -13,7 +13,7 @@ INSTALACIÓN MANUAL POR TERMUX - GITHUB
 termux-setup-storage
 ```
 ```bash
-apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/AleXD0009/Gata-bot.git && cd Gata-bot && yarn install && npm install && npm start
+apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/AleXD0009/Jotchua-bot-MD.git && cd Jotchua-bot-MD && yarn install && npm install && npm start
 ```
 > **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
