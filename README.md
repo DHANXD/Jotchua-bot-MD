@@ -7,6 +7,17 @@
 
  > NO SPAMEAR COMANDOS
 
+INSTALACIÓN MANUAL POR TERMUX - GITHUB 
+> **Note** Comandos para instalar de forma manual
+```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/AleXD0009/Gata-bot.git && cd Gata-bot && yarn install && npm install && npm start
+```
+> **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
+------------------
+ 
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
