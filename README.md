@@ -1,25 +1,9 @@
 # `𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃` 
 
-------------------
-------------------
-
-### `—◉ 🔗 CUENTAS OFICIALES 🔗`
-
-* 
-
-### `—◉ 💟 GRUPO DE SOPORTE 💟`
-
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
-> LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS QUE SEAN BOTS
 
 ### `—◉ 🤖 BOT OFICIAL🤖`
 
-<a href="https://api.whatsapp.com/send/?phone=5219991402134&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-<a href="https://api.whatsapp.com/send/?phone=5219993404349&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=+13862275635&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
  > NO SPAMEAR COMANDOS
 
