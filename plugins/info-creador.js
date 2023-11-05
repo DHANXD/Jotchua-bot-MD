@@ -20,7 +20,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/KP7x9em2zwKFTqZxrZJFx4'}},
+        'sourceUrl': 'https://chat.whatsapp.com/CTklazmF0byCPlV9KSlhF1'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
