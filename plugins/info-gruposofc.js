@@ -4,9 +4,9 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 𝙳𝙴 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙸𝚅𝙸𝚁 𝙲𝙾𝙽 𝙻𝙰 𝙲𝙾𝙼𝚄𝙽𝙸𝙳𝙰𝙳 :D*
 
 *➤ 𝙶𝚛𝚞𝚙𝚘𝚜 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝙱𝚘𝚝:*
-*1.-* https://chat.whatsapp.com/KP7x9em2zwKFTqZxrZJFx4
+*1.-* https://chat.whatsapp.com/CTklazmF0byCPlV9KSlhF1
 
-*2.-* https://chat.whatsapp.com/FWiLt4qnWgvHnlW7OnWDJl`.trim();
+*2.-* https://chat.whatsapp.com/KWoY8d9dv1y9KGaVHWya63`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/AleXD0009/Jotchua-bot-MD`},
     'mimetype': `application/${document}`,
@@ -20,10 +20,10 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/AleXD0009/Jotchua-bot-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': '𝐭𝐞 𝐢𝐧𝐯𝐢𝐭𝐨 𝐚 𝐥𝐨𝐬 𝐠𝐫𝐮𝐩𝐨𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/KP7x9em2zwKFTqZxrZJFx4'}},
+        'sourceUrl': 'https://chat.whatsapp.com/CTklazmF0byCPlV9KSlhF1'}},
     'caption': text,
     'footer': wm,
     'headerType': 6};
