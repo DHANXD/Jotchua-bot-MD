@@ -37,8 +37,8 @@ global.suittag = ['5491156673266'];
 global.prems = ['5491156673266'];
 
 global.packname = '𝐀𝐋𝐒';
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
+global.author = '𝙹𝚘𝚝𝚌𝚑𝚞𝚊-𝚋𝚘𝚝-𝙼𝙳';
+global.wm = '𝙹𝚘𝚝𝚌𝚑𝚞𝚊-𝚋𝚘𝚝-𝙼𝙳';
 global.titulowm = '🤖 Ｊｏｔｃｈｕａ－ｂｏｔ－ＭＤ 🤖';
 global.titulowm2 = `乂  Ｊｏｔｃｈｕａ－ｂｏｔ－ＭＤ  乂`
 global.igfg = '★𝚃𝙹𝚘𝚝𝚌𝚑𝚞𝚊-𝚋𝚘𝚝-𝙼𝙳★';
