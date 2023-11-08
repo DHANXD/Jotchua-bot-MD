@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ *< MENU-ANIME />*
+┃ *<𝐌𝐄𝐍𝐔 𝐀𝐍𝐈𝐌𝐄>*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┣ ඬ⃟ 🧿 _${usedPrefix}lolivid_
 ┣ ඬ⃟ 🧿 _${usedPrefix}loli_
