@@ -29,7 +29,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< MENU+18 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🔞 _${usedPrefix}pac_
+┣ ඬ⃟ 🔞 _${usedPrefix}pack_
 ┣ ඬ⃟ 🔞 _${usedPrefix}pack2_
 ┣ ඬ⃟ 🔞 _${usedPrefix}pack3_
 ┣ ඬ⃟ 🔞 _${usedPrefix}videoxxx_
