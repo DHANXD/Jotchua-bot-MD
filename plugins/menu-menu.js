@@ -39,147 +39,146 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ *🎖️ Nivel:* ${level}
-┣ *🧰 Experiencia:* ${exp}
-┣ *⚓ Rango:* ${role}
-┣ *💎 Diamantes:* ${limit}
-┣ *🐶 JotchuaCoins:* ${money}
-┣ *🪙 Tokens:* ${joincount}
-┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+┃ *🎖️ Nivel:* ${level}
+┃ *🧰 Experiencia:* ${exp}
+┃ *⚓ Rango:* ${role}
+┃ *💎 Diamantes:* ${limit}
+┃ *🐶 JotchuaCoins:* ${money}
+┃ *🪙 Tokens:* ${joincount}
+┃ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛
 ${readMore}
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝔹𝕆𝕋 𝕆𝔽ℂ 𝕆 𝕊𝕌𝔹 𝔹𝕆𝕋 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
+┃ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕊𝕆𝕃𝕌ℂ𝕀𝕆ℕ 𝔸 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣➤ Mensajes en espera
-┣ ඬ⃟ ⭐ _${usedPrefix}fixmsgespera_
-┣➤ Mensajes en espera (owner)
-┣ ඬ⃟ ⭐ _${usedPrefix}dsowner_
+┃➤ Mensajes en espera
+┃ ඬ⃟ ⭐ _${usedPrefix}fixmsgespera_
+┃➤ Mensajes en espera (owner)
+┃ ඬ⃟ ⭐ _${usedPrefix}dsowner_
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕀ℕ𝔽𝕆 𝔹𝕆𝕋 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 💟 _${usedPrefix}terminosycondiciones_
-┣ ඬ⃟ 💟 _${usedPrefix}grupos_
-┣ ඬ⃟ 💟 _${usedPrefix}estado_
-┣ ඬ⃟ 💟 _${usedPrefix}infobot_
-┣ ඬ⃟ 💟 _${usedPrefix}speedtest
-┣ ඬ⃟ 💟 _${usedPrefix}owner_
-┣ ඬ⃟ 💟 _${usedPrefix}script_
-┣ ඬ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┃ ඬ⃟ 💟 _${usedPrefix}terminosycondiciones_
+┃ ඬ⃟ 💟 _${usedPrefix}grupos_
+┃ ඬ⃟ 💟 _${usedPrefix}estado_
+┃ ඬ⃟ 💟 _${usedPrefix}infobot_
+┃ ඬ⃟ 💟 _${usedPrefix}speedtest
+┃ ඬ⃟ 💟 _${usedPrefix}owner_
+┃ ඬ⃟ 💟 _${usedPrefix}script_
+┃ ඬ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
+┃ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕊𝔼ℝ𝔹𝕆𝕋 - 𝕁𝔸𝔻𝕀𝔹𝕆𝕋 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🤖 _${usedPrefix}serbot --code_
-┣ ඬ⃟ 🤖 _${usedPrefix}serbot_
-┣ ඬ⃟ 🤖 _${usedPrefix}deletebot_
-┣ ඬ⃟ 🤖 _${usedPrefix}token
-┣ ඬ⃟ 🤖 _${usedPrefix}stop_
-┣ ඬ⃟ 🤖 _${usedPrefix}bots_
+┃ ඬ⃟ 🤖 _${usedPrefix}serbot --code_
+┃ ඬ⃟ 🤖 _${usedPrefix}serbot_
+┃ ඬ⃟ 🤖 _${usedPrefix}deletebot_
+┃ ඬ⃟ 🤖 _${usedPrefix}token
+┃ ඬ⃟ 🤖 _${usedPrefix}stop_
+┃ ඬ⃟ 🤖 _${usedPrefix}bots_
 ┃
-┣ ඬ⃟ 🤖 _${usedPrefix}enable restrict_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable restrict_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable autoread_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable autoread_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable antispam_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable antispam_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable anticall_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable anticall_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable modoia_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable modoia_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable audios_bot_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable audios_bot_
-┣ ඬ⃟ 🤖 _${usedPrefix}enable antiprivado_
-┣ ඬ⃟ 🤖 _${usedPrefix}disable antiprivado_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable restrict_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable restrict_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable autoread_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable autoread_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable antispam_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable antispam_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable anticall_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable anticall_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable modoia_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable modoia_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable audios_bot_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable audios_bot_
+┃ ඬ⃟ 🤖 _${usedPrefix}enable antiprivado_
+┃ ඬ⃟ 🤖 _${usedPrefix}disable antiprivado_
 ┗━━━━━━━━━━━━━━━━┛  
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}love *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pregunta *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}suitpvp *<@tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}delttt_
-┣ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
-┣ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}topgays_
-┣ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
-┣ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
-┣ ඬ⃟ 🎖️ _${usedPrefix}verdad_
-┣ ඬ⃟ 🎖️ _${usedPrefix}reto_
-┣ ඬ⃟ 🎖️ _${usedPrefix}cancion_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pista_
-┣ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
+┃ ඬ⃟ 🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}puto *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}puta *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}manco *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}manca *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}rata *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}love *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}pregunta *<texto>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}suitpvp *<@tag>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}delttt_
+┃ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
+┃ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
+┃ ඬ⃟ 🎖️ _${usedPrefix}topgays_
+┃ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
+┃ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
+┃ ඬ⃟ 🎖️ _${usedPrefix}verdad_
+┃ ඬ⃟ 🎖️ _${usedPrefix}reto_
+┃ ඬ⃟ 🎖️ _${usedPrefix}cancion_
+┃ ඬ⃟ 🎖️ _${usedPrefix}pista_
+┃ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *modohorny*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *modohorny*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antitraba*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
+┃ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
+┃ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ *< ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
+┃ *< ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🔰 _${usedPrefix}reporte *<texto>*_
+┃ ඬ⃟ 🔰 _${usedPrefix}reporte *<texto>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
