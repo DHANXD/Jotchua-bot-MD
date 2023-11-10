@@ -58,9 +58,9 @@ ${readMore}
 ┃ *< 𝐒𝐎𝐋𝐔𝐂𝐈𝐎𝐍 𝐀 𝐄𝐑𝐑𝐎𝐑𝐄𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃➜ Mensajes en espera
-┃ ☾ ⭐ _${usedPrefix}fixmsgespera_
+┃ ☾  _${usedPrefix}fixmsgespera_
 ┃➜ Mensajes en espera (owner)
-┃ ☾ ⭐ _${usedPrefix}dsowner_
+┃ ☾  _${usedPrefix}dsowner_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
@@ -111,38 +111,38 @@ ${readMore}
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐉𝐔𝐄𝐆𝐎𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ ඬ⃟ 🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}love *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}pregunta *<texto>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}suitpvp *<@tag>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}delttt_
-┃ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
-┃ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
-┃ ඬ⃟ 🎖️ _${usedPrefix}topgays_
-┃ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
-┃ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
-┃ ඬ⃟ 🎖️ _${usedPrefix}verdad_
-┃ ඬ⃟ 🎖️ _${usedPrefix}reto_
-┃ ඬ⃟ 🎖️ _${usedPrefix}cancion_
-┃ ඬ⃟ 🎖️ _${usedPrefix}pista_
-┃ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
+┃ ☽  _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┃ ☽  _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+┃ ☽  _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┃ ☽  _${usedPrefix}prostituto *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}prostituta *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}gay2 *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}lesbiana *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}pajero *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}pajera *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}puto *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}puta *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}manco *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}manca *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}rata *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}love *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}doxear *<nombre / @tag>*_
+┃ ☽  _${usedPrefix}pregunta *<texto>*_
+┃ ☽  _${usedPrefix}suitpvp *<@tag>*_
+┃ ☽  _${usedPrefix}slot *<apuesta>*_
+┃ ☽  _${usedPrefix}ttt *<nombre sala>*_
+┃ ☽  _${usedPrefix}delttt_
+┃ ☽  _${usedPrefix}acertijo_
+┃ ☽  _${usedPrefix}simi *<texto>*_
+┃ ☽  _${usedPrefix}top *<texto>*_
+┃ ☽  _${usedPrefix}topgays_
+┃ ☽  _${usedPrefix}topotakus_
+┃ ☽  _${usedPrefix}formarpareja_
+┃ ☽  _${usedPrefix}verdad_
+┃ ☽  _${usedPrefix}reto_
+┃ ☽  _${usedPrefix}cancion_
+┃ ☽  _${usedPrefix}pista_
+┃ ☽  _${usedPrefix}wordfind_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
