@@ -300,6 +300,7 @@ ${readMore}
 ┣ ☽  _${usedPrefix}itssostupid_
 ┣ ☽  _${usedPrefix}pixelar_
 ┣ ☽  _${usedPrefix}blur_
+┣☽   _${usedPrefix}toanime_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
