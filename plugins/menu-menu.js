@@ -241,80 +241,80 @@ ${readMore}
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐆𝐑𝐔𝐏𝐎𝐒 >* 
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 💎 _${usedPrefix}add *<numero>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick2 *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listanum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kicknum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
-┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}infogroup_
-┣ ඬ⃟ 💎 _${usedPrefix}resetlink_
-┣ ඬ⃟ 💎 _${usedPrefix}link_
-┣ ඬ⃟ 💎 _${usedPrefix}setname *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setdesc *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}invocar *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setwelcome *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setbye *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<audio>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<video>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<imagen>*_
-┣ ඬ⃟ 💎 _${usedPrefix}warn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}unwarn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listwarn_
-┣ ඬ⃟ 💎 _${usedPrefix}fantasmas_
-┣ ඬ⃟ 💎 _${usedPrefix}destraba_
-┣ ඬ⃟ 💎 _${usedPrefix}setpp *<imagen>*_
+┣ ☽  _${usedPrefix}add *<numero>*_
+┣ ☽  _${usedPrefix}kick *<@tag>*_
+┣ ☽  _${usedPrefix}kick2 *<@tag>*_
+┣ ☽  _${usedPrefix}listanum *<texto>*_
+┣ ☽  _${usedPrefix}kicknum *<texto>*_
+┣ ☽  _${usedPrefix}grupo *<abrir / cerrar>*_
+┣ ☽  _${usedPrefix}grouptime *<opcion> <tiempo>*_
+┣ ☽  _${usedPrefix}promote *<@tag>*_
+┣ ☽  _${usedPrefix}demote *<@tag>*_
+┣ ☽  _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┣ ☽  _${usedPrefix}demote *<@tag>*_
+┣ ☽  _${usedPrefix}infogroup_
+┣ ☽  _${usedPrefix}resetlink_
+┣ ☽  _${usedPrefix}link_
+┣ ☽  _${usedPrefix}setname *<texto>*_
+┣ ☽  _${usedPrefix}setdesc *<texto>*_
+┣ ☽  _${usedPrefix}invocar *<texto>*_
+┣ ☽  _${usedPrefix}setwelcome *<texto>*_
+┣ ☽  _${usedPrefix}setbye *<texto>*_
+┣ ☽  _${usedPrefix}hidetag *<texto>*_
+┣ ☽  _${usedPrefix}hidetag *<audio>*_
+┣ ☽  _${usedPrefix}hidetag *<video>*_
+┣ ☽  _${usedPrefix}hidetag *<imagen>*_
+┣ ☽  _${usedPrefix}warn *<@tag>*_
+┣ ☽  _${usedPrefix}unwarn *<@tag>*_
+┣ ☽  _${usedPrefix}listwarn_
+┣ ☽  _${usedPrefix}fantasmas_
+┣ ☽  _${usedPrefix}destraba_
+┣ ☽  _${usedPrefix}setpp *<imagen>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🧧 _${usedPrefix}toanime *<imagen>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}togifaud *<video>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}toimg *<sticker>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tomp3 *<video>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tomp3 *<nota de voz>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}toptt *<video / audio>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tovideo *<sticker>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tourl *<video / imagen / audio>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tts *<idioma> <texto>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tts *<efecto> <texto>*_
+┣ ☽  _${usedPrefix}toanime *<imagen>*_
+┣ ☽  _${usedPrefix}togifaud *<video>*_
+┣ ☽  _${usedPrefix}toimg *<sticker>*_
+┣ ☽  _${usedPrefix}tomp3 *<video>*_
+┣ ☽  _${usedPrefix}tomp3 *<nota de voz>*_
+┣ ☽  _${usedPrefix}toptt *<video / audio>*_
+┣ ☽  _${usedPrefix}tovideo *<sticker>*_
+┣ ☽  _${usedPrefix}tourl *<video / imagen / audio>*_
+┣ ☽  _${usedPrefix}tts *<idioma> <texto>*_
+┣ ☽  _${usedPrefix}tts *<efecto> <texto>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐘 𝐋𝐎𝐆𝐎𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🖍️ _${usedPrefix}logos *<efecto> <texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}logochristmas *<texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}logocorazon *<texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}ytcomment *<texto>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}hornycard *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}simpcard *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}lolice *<@tag>*_
-┣ ඬ⃟ 🖍️ _${usedPrefix}itssostupid_
-┣ ඬ⃟ 🖍️ _${usedPrefix}pixelar_
-┣ ඬ⃟ 🖍️ _${usedPrefix}blur_
+┣ ☽  _${usedPrefix}logos *<efecto> <texto>*_
+┣ ☽  _${usedPrefix}logochristmas *<texto>*_
+┣ ☽  _${usedPrefix}logocorazon *<texto>*_
+┣ ☽  _${usedPrefix}ytcomment *<texto>*_
+┣ ☽  _${usedPrefix}hornycard *<@tag>*_
+┣ ☽  _${usedPrefix}simpcard *<@tag>*_
+┣ ☽  _${usedPrefix}lolice *<@tag>*_
+┣ ☽  _${usedPrefix}itssostupid_
+┣ ☽  _${usedPrefix}pixelar_
+┣ ☽  _${usedPrefix}blur_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐅𝐑𝐀𝐒𝐄𝐒 𝐘 𝐓𝐄𝐗𝐓𝐎𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🥀 _${usedPrefix}piropo_
-┣ ඬ⃟ 🥀 _${usedPrefix}consejo_
-┣ ඬ⃟ 🥀 _${usedPrefix}fraseromantica_
-┣ ඬ⃟ 🥀 _${usedPrefix}historiaromantica_
+┣ ☽  _${usedPrefix}piropo_
+┣ ☽  _${usedPrefix}consejo_
+┣ ☽  _${usedPrefix}fraseromantica_
+┣ ☽  _${usedPrefix}historiaromantica_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐑𝐀𝐍𝐃-𝐀𝐍𝐈𝐌𝐄𝐒 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┣ ඬ⃟ 🧿 _${usedPrefix}menuanimes_
+┣ ☽  _${usedPrefix}menuanimes_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
