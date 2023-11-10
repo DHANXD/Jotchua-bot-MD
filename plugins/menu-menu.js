@@ -37,7 +37,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ *< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
+┃ *< 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *🎖️ 𝙽𝚒𝚟𝚎𝚕:* ${level}
 ┃ *🧰 𝙴𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚒𝚊:* ${exp}
@@ -79,33 +79,33 @@ ${readMore}
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
+┃ ☽  _${usedPrefix}join *<enlace / link / url>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃ *< 𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓 >*
 ┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ ඬ⃟ 🤖 _${usedPrefix}serbot --code_
-┃ ඬ⃟ 🤖 _${usedPrefix}serbot_
-┃ ඬ⃟ 🤖 _${usedPrefix}deletebot_
-┃ ඬ⃟ 🤖 _${usedPrefix}token
-┃ ඬ⃟ 🤖 _${usedPrefix}stop_
-┃ ඬ⃟ 🤖 _${usedPrefix}bots_
+┃ ☽  _${usedPrefix}serbot --code_
+┃ ☽  _${usedPrefix}serbot_
+┃ ☽  _${usedPrefix}deletebot_
+┃ ☽  _${usedPrefix}token
+┃ ☽  _${usedPrefix}stop_
+┃ ☽  _${usedPrefix}bots_
 ┃
-┃ ඬ⃟ 🤖 _${usedPrefix}enable restrict_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable restrict_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable autoread_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable autoread_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable antispam_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable antispam_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable anticall_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable anticall_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable modoia_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable modoia_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable audios_bot_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable audios_bot_
-┃ ඬ⃟ 🤖 _${usedPrefix}enable antiprivado_
-┃ ඬ⃟ 🤖 _${usedPrefix}disable antiprivado_
+┃ ☽  _${usedPrefix}enable restrict_
+┃ ☽  _${usedPrefix}disable restrict_
+┃ ☽  _${usedPrefix}enable autoread_
+┃ ☽  _${usedPrefix}disable autoread_
+┃ ☽  _${usedPrefix}enable antispam_
+┃ ☽  _${usedPrefix}disable antispam_
+┃ ☽  _${usedPrefix}enable anticall_
+┃ ☽  _${usedPrefix}disable anticall_
+┃ ☽  _${usedPrefix}enable modoia_
+┃ ☽  _${usedPrefix}disable modoia_
+┃ ☽  _${usedPrefix}enable audios_bot_
+┃ ☽  _${usedPrefix}disable audios_bot_
+┃ ☽  _${usedPrefix}enable antiprivado_
+┃ ☽  _${usedPrefix}disable antiprivado_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊ 
 
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
