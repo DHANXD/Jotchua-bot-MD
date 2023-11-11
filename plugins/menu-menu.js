@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = ./src/Pre Bot Publi.jpg;
-    // let vn = './media/menu.mp3'
+    const pp = imagen6;
+    // let vn = './Menu2.jpg'
     const img = './src/Pre Bot Publi.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
