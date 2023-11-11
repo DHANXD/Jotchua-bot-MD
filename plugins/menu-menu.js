@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen2;
+    const pp = imagen3;
     // let vn = './Menu2.jpg'
     const img = './src/Pre Bot Publi.jpg';
     const d = new Date(new Date + 3600000);
