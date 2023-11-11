@@ -6,7 +6,7 @@ let fileName;
 let apiUrl;
 let enviando = false;
 const handler = async (m, { command, usedPrefix, conn, text }) => {
-  if (!text) throw `*[❗] Nombre de la canción/video faltante, por favor ingrese el comando más el nombre, título o link de alguna canción o video de YouTube.*\n\n*—◉ Ejemplo 1:*\n*${usedPrefix + command}* Good Feeling - Flo Rida\n*—◉ Ejemplo 2:*\n*${usedPrefix + command}* https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p`;
+  if (!text) throw `*[❗] Nombre de la canción/video faltante, por favor ingrese el comando más el nombre, título o link de alguna canción o video de YouTube.*\n\n* Ejemplo 1:*\n*${usedPrefix + command}* Lumi Athena - SMOKE IT OFF! ☆ feat. jnhygs\n* Ejemplo 2:*\n*${usedPrefix + command}* https://youtu.be/9HRgfVGRHSA?si=aRYyA8_kJ1sCQx3n`;
 if (enviando) return;
     enviando = true
   try {
