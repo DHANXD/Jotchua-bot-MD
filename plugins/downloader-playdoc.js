@@ -4,7 +4,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida* `;
+  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Lumi Athena - SMOKE IT OFF! ☆ feat. jnhygs* `;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -13,17 +13,19 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play4' || command == 'playdoc2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `*◉——⌈🔊 YOUTUBE DOC 🔊⌋——◉*\n
-❏ 📌 *Titulo:* ${yt_play[0].title}
-❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
-❏ 🪬 *Tipo:* ${yt_play[0].type}
-❏ 🔗 *Link:* ${yt_play[0].url}\n
-❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+    const texto1 = `
+*╭⚊⚊⚊⌈🔊 YOUTUBE DOC 🔊⌋*\n┃
+┃☰ *Titulo:* ${yt_play[0].title}
+┃☰ *Publicado:* ${yt_play[0].ago}
+┃☰ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
+┃☰ *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
+┃☰ *Autor:* ${yt_play[0].author.name}
+┃☰ *Canal:* ${yt_play[0].author.url}
+┃☰ *ID:* ${yt_play[0].videoId}
+┃☰ *Tipo:* ${yt_play[0].type}
+┃☰ *Link:* ${yt_play[0].url}\n┃
+┃☰ *_Enviando ${additionalText}, aguarde un momento．．．_*
+╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
