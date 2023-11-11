@@ -93,6 +93,12 @@ global.frasesromanticas = [
   'El amor es el idioma en el que nuestros corazones conversan.',
   'Eres el pedacito que me faltaba para completar mi alma.',
   'Amar es encontrar en ti todo lo que nunca supe que necesitaba.',
+ 'Te amo más que ayer y menos que mañana.',
+  'Eres mi mejor regalo y lo serás siempre.',
+  'La perfección no existe, pero para mí eres perfecto.',
+  'Eres mi refugio seguro en este mundo caótico.',
+  'Eres la razón por la que sonrío todos los días.',
+  'Tu presencia hace que todo sea más hermoso.',
 ];
 
 global.consejos = [
