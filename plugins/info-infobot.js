@@ -66,7 +66,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://github.com/AleXD0009/Jotchua-bot-MD",
         mediaType: 2,
         previewType: "pdf",
-        title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
+        title: "un bot de whatsapp",
         body: wm,
         thumbnail: imagen1,
         sourceUrl: "https://chat.whatsapp.com/FWiLt4qnWgvHnlW7OnWDJl",
