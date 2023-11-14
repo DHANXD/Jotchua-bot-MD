@@ -1,6 +1,6 @@
 import fetch from 'node-fetch' 
 const handler = async (m, {conn, text, args}) => {   
-if (!args[0]) return conn.reply(m.chat, "*[🔎] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙻𝙰 𝚄𝚁𝙻 𝙳𝙴 𝚄𝙽𝙰 𝙿𝙰𝙶𝙸𝙽𝙰*", m);  
+if (!args[0]) return conn.reply(m.chat, "*𝐢𝐧𝐠𝐫𝐞𝐬𝐞 𝐥𝐚 𝐔𝐑𝐋 𝐝𝐞 𝐥𝐚 𝐩𝐚𝐠𝐢𝐧𝐚*", m);  
    try {
      const ss = await (await fetch(`https://image.thum.io/get/fullpage/${args[0]}`)).buffer();
         conn.sendFile(m.chat, ss, '', '', m);
