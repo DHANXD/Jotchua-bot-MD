@@ -197,7 +197,7 @@ const connectionOptions = {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
   },
-  browser: ['MysticBot', 'Safari', '1.0.0'],
+  browser: ['𝐉𝐨𝐭𝐜𝐡𝐮𝐚', 'Mexico', '1.0.0'],
   version,
   defaultQueryTimeoutMs: undefined,
 };
@@ -205,7 +205,7 @@ const connectionOptions = {
 global.conn = makeWASocket(connectionOptions);
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`Ƈᴀʀɢᴀɴᴅᴏ．．．\n`);
+conn.logger.info(`𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -275,9 +275,9 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 }
 })
-if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
+if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> 𝐍𝐨 𝐡𝐚𝐲 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐩𝐨𝐫 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐫.`))
 } catch (err) {
-console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`=> 𝐀𝐥𝐠𝐨 𝐬𝐚𝐥𝐢𝐨 𝐦𝐚𝐥 𝐝𝐮𝐫𝐚𝐧𝐭𝐞 𝐥𝐚 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐜𝐢ó𝐧, 𝐚𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐧𝐨 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐝𝐨𝐬`))
 }}
 
 function purgeOldFiles() {
@@ -312,15 +312,15 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) loadDatabase();
   if (update.qr != 0 && update.qr != undefined) {
-    console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
+    console.log(chalk.yellow('🎃ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
   }
   if (connection == 'open') {
-    console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'));
+    console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾  𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 🎉\n│\n▣──────────────────────────────···'));
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`[ ⚠ ] Sesión incorrecta,elimina la carpeta ${global.authFile} y escanea nuevamente.`);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
         conn.logger.warn(`[ ⚠ ] Conexión cerrada, reconectando...`);
@@ -346,7 +346,7 @@ if (connection === 'close') {
     }
 }
   /*if (connection == 'close') {
-    console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
+    console.log(chalk.yellow(`🎃ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`));
   }*/
 }
 
@@ -380,14 +380,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n\n@desc\n\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*';
-  conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ 𝙷𝙰𝚂𝚃𝙰 𝙿𝚁𝙾𝙽𝚃𝙾 👋🏻* \n*╚══════════════*';
-  conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*';
-  conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*';
-  conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc';
-  conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject';
-  conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*';
-  conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke';
+  conn.welcome = '*╔══════════════*\n*╟➜ @subject*\n*╠══════════════*\n*╟➜ @user*\n*╟➜ 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃@* \n*║*\n*╟➜ 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎:*\n\n@desc\n\n*║*\n*╟➜ 𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐓𝐔 𝐄𝐒𝐓𝐀𝐃𝐈𝐀!!*\n*╚══════════════*';
+  conn.bye = '*╔══════════════*\n*╟➜ @user*\n*╟➜ 𝐀𝐃𝐈𝐎𝐒 𝐗𝐃 * \n*╚══════════════*';
+  conn.spromote = '*@user 𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧!!*';
+  conn.sdemote = '*@user 𝐘𝐚 𝐧𝐨 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 !!*';
+  conn.sDesc = '*𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨';
+  conn.sSubject = '*𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n*𝐧𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞:* @subject';
+  conn.sIcon = '*𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨!!*';
+  conn.sRevoke = '*𝐬𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐨 𝐞𝐥 𝐥𝐢𝐧𝐤 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨!!*\n*𝐥𝐢𝐧𝐤 𝐧𝐮𝐞𝐯𝐨:* @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -541,7 +541,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ ʙʀᴜɴᴏ sᴏʙʀɪɴᴏ ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.atom.bio/theshadowbrokers-team`;
+  const bio = `𝐁𝐎𝐓 𝐀𝐂𝐓𝐈𝐕𝐎: ${uptime} ┃ 𝐁𝐘 𝐀𝐋𝐒 ┃`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
