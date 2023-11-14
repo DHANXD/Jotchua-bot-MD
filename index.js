@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando...');
+console.log('✅ㅤ𝐢𝐧𝐢𝐜𝐢𝐚𝐧𝐝𝐨...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Mystic - Bot\nWhatsApp Bot MD', {
+say('Jotchua - Bot\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por Bruno Sobrino`, {
+say(`Bot modificado por ALS`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤOcurrio un error inesperado:', code);
+    console.error('❎ㅤ𝐎𝐜𝐮𝐫𝐫𝐢𝐨 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫 𝐢𝐧𝐞𝐬𝐩𝐞𝐫𝐚𝐝𝐨...:', code);
 
     p.process.kill();
     isRunning = false;
