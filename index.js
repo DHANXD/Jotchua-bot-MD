@@ -1,4 +1,4 @@
-console.log('✅ㅤ𝐢𝐧𝐢𝐜𝐢𝐚𝐧𝐝𝐨...');
+console.log('𝐢𝐧𝐢𝐜𝐢𝐚𝐧𝐝𝐨...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤ𝐎𝐜𝐮𝐫𝐫𝐢𝐨 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫 𝐢𝐧𝐞𝐬𝐩𝐞𝐫𝐚𝐝𝐨...:', code);
+    console.error('😥 𝐎𝐜𝐮𝐫𝐫𝐢𝐨 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫 𝐢𝐧𝐞𝐬𝐩𝐞𝐫𝐚𝐝𝐨...:', code);
 
     p.process.kill();
     isRunning = false;
