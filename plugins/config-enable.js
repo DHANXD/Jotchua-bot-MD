@@ -1,9 +1,12 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-  const optionsFull = `*Opción:* ✨ | WELCOME
-*Comando:* ${usedPrefix + command} welcome
-*Descripción:* Activa o desactiva la bienvenida en el grupo.
-
+  const optionsFull = `
 ╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
+┃ 
+┃ *Opción:* ✨ | WELCOME
+┃*Comando:* ${usedPrefix + command} welcome
+┃*Descripción:* Activa o desactiva la bienvenida en el grupo.
+┃
+┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ┃
 ┃*Opción:* 🌎 | MODO PUBLICO
 ┃*Comando:* ${usedPrefix + command} public
