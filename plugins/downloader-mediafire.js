@@ -8,11 +8,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   try {
     const resEX = await mediafiredl(args[0]);
     const captionES = `
-*📓 𝙽𝙾𝙼𝙱𝚁𝙴:* ${resEX.filename}
-*📁 𝙿𝙴𝚂𝙾:* ${resEX.filesizeH}
-*📄 𝚃𝙸𝙿𝙾:* ${resEX.ext}
+*𝐍𝐎𝐌𝐁𝐑𝐄:* ${resEX.filename}
+*𝐏𝐄𝐒𝐎:* ${resEX.filesizeH}
+*𝐓𝐈𝐏𝐎:* ${resEX.ext}
 
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
+*𝐄𝐒𝐏𝐄𝐑𝐄 𝐄𝐍 𝐋𝐎 𝐐𝐔𝐄 𝐄𝐒 𝐄𝐍𝐕𝐈𝐀𝐃𝐎 𝐒𝐔 𝐀𝐑𝐂𝐇𝐈𝐕𝐎 . . .* 
 `.trim();
     m.reply(captionES);
     await conn.sendFile(m.chat, resEX.url, resEX.filename, '', m, null, {mimetype: resEX.ext, asDocument: true});
@@ -21,16 +21,16 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       const res = await mediafireDl(args[0]);
       const {name, size, date, mime, link} = res;
       const caption = `
-*📓 𝙽𝙾𝙼𝙱𝚁𝙴:* ${name}
-*📁 𝙿𝙴𝚂𝙾:* ${size}
-*📄 𝚃𝙸𝙿𝙾:* ${mime}
+*𝐍𝐎𝐌𝐁𝐑𝐄:* ${name}
+*𝐏𝐄𝐒𝐎:* ${size}
+*𝐓𝐈𝐏𝐎:* ${mime}
 
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
+*𝐄𝐒𝐏𝐄𝐑𝐄 𝐄𝐍 𝐋𝐎 𝐐𝐔𝐄 𝐄𝐒 𝐄𝐍𝐕𝐈𝐀𝐃𝐎 𝐒𝐔 𝐀𝐑𝐂𝐇𝐈𝐕𝐎. . . .* 
 `.trim();
       await m.reply(caption);
       await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
     } catch {
-      await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
+      await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n* https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
     }
   }
 };
