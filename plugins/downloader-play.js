@@ -16,12 +16,12 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play') {
-      additionalText = 'audio 🔊';
+      additionalText = 'audio ';
     } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+      additionalText = 'video ';
     }
     const texto1 = `
-╭⚊⚊⚊⌈🔊 YOUTUBE PLAY 🔊⌋⚊⚊⚊\n┃
+╭⚊⚊⚊⌈  YOUTUBE PLAY ⌋⚊⚊⚊\n┃
 ┃☰ Titulo: ${yt_play[0].title}
 ┃☰ Publicado: ${yt_play[0].ago}
 ┃☰ Duracion: ${secondString(yt_play[0].duration.seconds)}
@@ -179,21 +179,21 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play') {
-      additionalText = 'audio 🔊';
+      additionalText = 'audio ';
     } else if (command === 'play2') {
-      additionalText = 'video 🎥';
+      additionalText = 'video ';
     }
-    const texto1 = `◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉\n
-❏ 📌 Titulo: ${yt_play[0].title}
-❏ 📆 Publicado: ${yt_play[0].ago}
-❏ ⌚ Duracion: ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 Vistas: ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 Autor: ${yt_play[0].author.name}
-❏ ⏯️ Canal: ${yt_play[0].author.url}
-❏ 🆔 ID: ${yt_play[0].videoId}
-❏ 🪬 Tipo: ${yt_play[0].type}
-❏ 🔗 Link: ${yt_play[0].url}\n
-❏ Enviando ${additionalText}, aguarde un momento．．．`.trim();
+    const texto1 = `——⌈ YOUTUBE PLAY ⌋——\n
+ Titulo: ${yt_play[0].title}
+ Publicado: ${yt_play[0].ago}
+ Duracion: ${secondString(yt_play[0].duration.seconds)}
+ Vistas: ${`${MilesNumber(yt_play[0].views)}`}
+ Autor: ${yt_play[0].author.name}
+ Canal: ${yt_play[0].author.url}
+ ID: ${yt_play[0].videoId}
+ Tipo: ${yt_play[0].type}
+ Link: ${yt_play[0].url}\n
+ Enviando ${additionalText}, aguarde un momento．．．`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
       try {      
@@ -282,7 +282,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     await conn.sendMessage(m.chat, {text: `[ ✔ ] Descargue su video en ${dl_url}`}, {quoted: m});
     return    
     }     
-    const cap = `◉—⌈📥 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 📥⌋—◉\n\n❏ Título: ${ttl}\n❏ Peso: ${size} MB`.trim();
+    const cap = `—⌈ 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐃𝐋 ⌋—\n\n❏ Título: ${ttl}\n❏ Peso: ${size} MB`.trim();
     if (size >= limit1 && size <= limit2) {  
     await conn.sendMessage(m.chat, {document: sex, caption: cap, mimetype: 'video/mp4', fileName: ttl + `.mp4`}, {quoted: m});   
     return
