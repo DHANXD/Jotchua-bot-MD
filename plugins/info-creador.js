@@ -3,14 +3,14 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text =
 `╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/5491156673266*
+┃ _𝐄𝐋 𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄 𝐌𝐈 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐄𝐒_ wa.me/5491156673266*
 ⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃* 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴𝙻 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁 1 𝙴𝚂 wa.me/+18199751245
+┃_𝐄𝐋 𝐍𝐔𝐌𝐄𝐑𝐎 𝐃𝐄𝐋 𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑 𝐄𝐒_ wa.me/+18199751245
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/AleXD0009/Jotchua-bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    'fileName': `「  _𝐇𝐨𝐥𝐚_ 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -20,7 +20,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/AleXD0009/Jotchua-bot-MD',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': '_𝐮𝐧 𝐛𝐨𝐭 𝐝𝐞 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩_⁩',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://chat.whatsapp.com/CTklazmF0byCPlV9KSlhF1'}},
