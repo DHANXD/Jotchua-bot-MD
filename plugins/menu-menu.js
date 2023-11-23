@@ -45,13 +45,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃ *⛄ 𝙹𝚘𝚝𝚌𝚑𝚞𝚊𝙲𝚘𝚒𝚗𝚜:* ${money}
 ┃ *⛄ 𝚃𝚘𝚔𝚎𝚗𝚜:* ${joincount}
 ┃ *⛄ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+┃  *⛄ 𝘣𝘰𝘵/𝘴𝘶𝘣 𝘣𝘰𝘵:*${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ${readMore}
-╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ *_𝐁𝐎𝐓 𝐎𝐅𝐂 𝐎 𝐒𝐔𝐁 𝐁𝐎𝐓_*
-┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
-╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 
 ╭⚊ *_𝐒𝐎𝐋𝐔𝐂𝐈𝐎𝐍 𝐀 𝐄𝐑𝐑𝐎𝐑𝐄𝐒_*
 ┃⛄ Mensajes en espera
