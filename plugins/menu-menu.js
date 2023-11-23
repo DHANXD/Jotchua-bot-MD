@@ -55,7 +55,7 @@ ${readMore}
 ┃⛄ Mensajes en espera (owner)
 ┃ ⛄  _${usedPrefix}dsowner_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐈𝐍𝐅𝐎 𝐁𝐎𝐓_*
 ┃ ⛄  _${usedPrefix}terminosycondiciones_
 ┃ ⛄  _${usedPrefix}grupos_
@@ -66,11 +66,11 @@ ${readMore}
 ┃ ⛄  _${usedPrefix}script_
 ┃ ⛄  _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎_*
 ┃ ⛄  _${usedPrefix}join *<enlace / link / url>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓_*
 ┃ ⛄  _${usedPrefix}serbot --code_
 ┃ ⛄  _${usedPrefix}serbot_
@@ -94,7 +94,7 @@ ${readMore}
 ┃ ⛄  _${usedPrefix}enable antiprivado_
 ┃ ⛄  _${usedPrefix}disable antiprivado_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊ 
-
+${readMore}
 ╭⚊ *_𝐉𝐔𝐄𝐆𝐎𝐒_*
 ┃ ⛄  _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ┃ ⛄  _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
@@ -129,7 +129,7 @@ ${readMore}
 ┃ ⛄  _${usedPrefix}pista_
 ┃ ⛄  _${usedPrefix}wordfind_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐀𝐂𝐓𝐈𝐕𝐀𝐑 𝐎 𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑_*
 ┃ ⛄  _${usedPrefix}enable *welcome*_
 ┃ ⛄  _${usedPrefix}enable *modohorny*_
@@ -157,11 +157,11 @@ ${readMore}
 ┃ ⛄  _${usedPrefix}enable *antidelete*_
 ┃ ⛄  _${usedPrefix}disable *antidelete*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐑𝐄𝐏𝐎𝐑𝐓𝐀𝐑 𝐄𝐑𝐑𝐎𝐑𝐄𝐒_*
 ┃ ⛄  _${usedPrefix}reporte *<texto>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒_*
 ┣ ⛄  _${usedPrefix}instagram *<enlace / link / url>*_
 ┣ ⛄  _${usedPrefix}mediafire *<enlace / link / url>*_
@@ -199,7 +199,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}igstory *<nombre de usuario>*_
 ┣ ⛄  _${usedPrefix}tiktokstalk *<username>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒_*
 ┣ ⛄  _${usedPrefix}githubsearch *<texto>*_
 ┣ ⛄  _${usedPrefix}pelisplus *<texto>*_
@@ -246,7 +246,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}destraba_
 ┣ ⛄  _${usedPrefix}setpp *<imagen>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒_*
 ┣ ⛄  _${usedPrefix}toanime *<imagen>*_
 ┣ ⛄  _${usedPrefix}togifaud *<video>*_
@@ -259,7 +259,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}tts *<idioma> <texto>*_
 ┣ ⛄  _${usedPrefix}tts *<efecto> <texto>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐘 𝐋𝐎𝐆𝐎𝐒_*
 ┣ ⛄  _${usedPrefix}logos *<efecto> <texto>*_
 ┣ ⛄  _${usedPrefix}logochristmas *<texto>*_
@@ -273,18 +273,18 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}blur_
 ┣ ⛄  _${usedPrefix}toanime_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐅𝐑𝐀𝐒𝐄𝐒 𝐘 𝐓𝐄𝐗𝐓𝐎𝐒_*
 ┣ ⛄  _${usedPrefix}piropo_
 ┣ ⛄  _${usedPrefix}consejo_
 ┣ ⛄  _${usedPrefix}fraseromantica_
 ┣ ⛄  _${usedPrefix}historiaromantica_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐑𝐀𝐍𝐃-𝐀𝐍𝐈𝐌𝐄𝐒_*
 ┣ ⛄  _${usedPrefix}menuanimes_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐑𝐀𝐍𝐃𝐎𝐌_*
 ┣ ⛄  _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ┣ ⛄  _${usedPrefix}cristianoronaldo_
@@ -314,11 +314,11 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}planeta_
 ┣ ⛄  _${usedPrefix}randomprofile_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 +𝟏𝟖_*
 ┣ ⛄  _${usedPrefix}labiblia_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎𝐒_*
 ┃*- 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
 ┣ ⛄  _${usedPrefix}bass_
@@ -334,17 +334,17 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}smooth_
 ┣ ⛄  _${usedPrefix}tupai_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐂𝐇𝐀𝐓 𝐀𝐍𝐎𝐍𝐈𝐌𝐎_*
 ┣ ⛄  _${usedPrefix}start_
 ┣ ⛄  _${usedPrefix}next_
 ┣ ⛄  _${usedPrefix}leave_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐀𝐔𝐃𝐈𝐎𝐒_*   
 ┣ ⛄  _${usedPrefix}menuaudios_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒_*
 ┣ ⛄  _${usedPrefix}inspect *<link wa_gc>*_
 ┣ ⛄  _${usedPrefix}chatgpt *<texto>*_
@@ -373,7 +373,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}horario_
 ┣ ⛄  _${usedPrefix}dropmail_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐑𝐏𝐆 - 𝐋𝐈𝐌𝐈𝐓𝐄𝐒 - 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀_*
 ┣ ⛄  _${usedPrefix}adventure_
 ┣ ⛄  _${usedPrefix}cazar_
@@ -395,7 +395,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 ┣ ⛄  _${usedPrefix}unreg *<numero de serie>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊⚊⚊ *_𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒_*
 ┣ ⛄  _${usedPrefix}sticker *<responder a imagen o video>*_
 ┣ ⛄  _${usedPrefix}sticker *<enlace / link / url>*_
@@ -424,7 +424,7 @@ ${readMore}
 ┣ ⛄  _${usedPrefix}stickermarker *<efecto> <imagen>*_
 ┣ ⛄  _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 ╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-
+${readMore}
 ╭⚊ *_𝐎𝐖𝐍𝐄𝐑 𝐘 𝐌𝐎𝐃𝐄𝐑𝐀𝐃𝐎𝐑𝐄𝐒_*
 ┣ ⛄  > *<funcion>*
 ┣ ⛄  => *<funcion>*
