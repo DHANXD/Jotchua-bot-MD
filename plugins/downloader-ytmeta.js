@@ -19,11 +19,11 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por BrunoSobrino & TheMystic-Bot-MD 🤖',
+      text: ' Descarga por 𝐀𝐋𝐒 | 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐁𝐨𝐭-𝐌𝐃',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤴🏻 Descarga por BrunoSobrino & TheMystic-Bot-MD 🤖',
+      text: ' Descarga por 𝐀𝐋𝐒 | 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐁𝐨𝐭-𝐌𝐃',
     },
     image: {
       mime: "image/jpeg",
