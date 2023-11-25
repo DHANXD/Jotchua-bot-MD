@@ -24,46 +24,46 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
 │╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 │┃  — *𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃* —
 │┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│┃ *𝗛ola, ${taguser}*
+│┃ ⛄ *𝗛ola, ${taguser}*
 │╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ╰───────────────────────────
 
 ╭──────────────────────────
 │╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│┃ *< 𝐌𝐄𝐍𝐔 +𝟏𝟖 >*
+│┃ *_𝐌𝐄𝐍𝐔 +𝟏𝟖_*
 │┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│┣ ☾  _${usedPrefix}pack_
-│┣ ☾  _${usedPrefix}pack2_
-│┣ ☾  _${usedPrefix}pack3_
-│┣ ☾  _${usedPrefix}videoxxx_
-│┣ ☾  _${usedPrefix}videolesbixxx_
-│┣ ☾  _${usedPrefix}tetas_
-│┣ ☾  _${usedPrefix}booty_
-│┣ ☾  _${usedPrefix}ecchi_
-│┣ ☾  _${usedPrefix}furro_
-│┣ ☾  _${usedPrefix}imagenlesbians_
-│┣ ☾  _${usedPrefix}panties_
-│┣ ☾  _${usedPrefix}pene_
-│┣ ☾  _${usedPrefix}porno_
-│┣ ☾  _${usedPrefix}randomxxx_
-│┣ ☾  _${usedPrefix}pechos_
-│┣ ☾  _${usedPrefix}yaoi_
-│┣ ☾  _${usedPrefix}yaoi2_
-│┣ ☾  _${usedPrefix}yuri_
-│┣ ☾  _${usedPrefix}yuri2_
-│┣ ☾  _${usedPrefix}trapito_
-│┣ ☾  _${usedPrefix}hentai_
-│┣ ☾  _${usedPrefix}nsfwloli_
-│┣ ☾  _${usedPrefix}nsfworgy_
-│┣ ☾  _${usedPrefix}nsfwfoot_
-│┣ ☾  _${usedPrefix}nsfwass_
-│┣ ☾  _${usedPrefix}nsfwbdsm_
-│┣ ☾  _${usedPrefix}nsfwcum_
-│┣ ☾  _${usedPrefix}nsfwero_
-│┣ ☾  _${usedPrefix}nsfwfemdom_
-│┣ ☾  _${usedPrefix}nsfwglass_
-│┣ ☾  _${usedPrefix}hentaipdf *<texto>*_
-│┣ ☾  _${usedPrefix}hentaisearch *<texto>*_
+│┣ ⛄  _${usedPrefix}pack_
+│┣ ⛄  _${usedPrefix}pack2_
+│┣ ⛄  _${usedPrefix}pack3_
+│┣ ⛄  _${usedPrefix}videoxxx_
+│┣ ⛄  _${usedPrefix}videolesbixxx_
+│┣ ⛄  _${usedPrefix}tetas_
+│┣ ⛄  _${usedPrefix}booty_
+│┣ ⛄  _${usedPrefix}ecchi_
+│┣ ⛄  _${usedPrefix}furro_
+│┣ ⛄  _${usedPrefix}imagenlesbians_
+│┣ ⛄  _${usedPrefix}panties_
+│┣ ⛄  _${usedPrefix}pene_
+│┣ ⛄  _${usedPrefix}porno_
+│┣ ⛄  _${usedPrefix}randomxxx_
+│┣ ⛄  _${usedPrefix}pechos_
+│┣ ⛄  _${usedPrefix}yaoi_
+│┣ ⛄  _${usedPrefix}yaoi2_
+│┣ ⛄  _${usedPrefix}yuri_
+│┣ ⛄  _${usedPrefix}yuri2_
+│┣ ⛄  _${usedPrefix}trapito_
+│┣ ⛄  _${usedPrefix}hentai_
+│┣ ⛄  _${usedPrefix}nsfwloli_
+│┣ ⛄  _${usedPrefix}nsfworgy_
+│┣ ⛄  _${usedPrefix}nsfwfoot_
+│┣ ⛄  _${usedPrefix}nsfwass_
+│┣ ⛄  _${usedPrefix}nsfwbdsm_
+│┣ ⛄  _${usedPrefix}nsfwcum_
+│┣ ⛄  _${usedPrefix}nsfwero_
+│┣ ⛄  _${usedPrefix}nsfwfemdom_
+│┣ ⛄  _${usedPrefix}nsfwglass_
+│┣ ⛄  _${usedPrefix}hentaipdf *<texto>*_
+│┣ ⛄  _${usedPrefix}hentaisearch *<texto>*_
 │┃ © 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 | 𝐁𝐲 𝐀𝐋𝐒
 │╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ╰───────────────────────────`.trim();
