@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use ${usedPrefix}enable modohorny*`; 
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*_𝐋𝐨𝐬 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 +𝟏𝟖 𝐄𝐬𝐭𝐚𝐧 𝐃𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨𝐬 𝐄𝐧 𝐄𝐬𝐭𝐞 𝐆𝐫𝐮𝐩𝐨, 𝐒𝐢 𝐄𝐬 𝐀𝐝𝐦𝐢𝐧 𝐲 𝐃𝐞𝐬𝐞𝐚 𝐀𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨𝐬 𝐔𝐬𝐞 𝐄𝐥 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 ${usedPrefix}enable modohorny*`; 
   try {
     const pp = imagen4;
     const vn = './media/La biblia.mp3';
@@ -20,15 +20,15 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
-`╭──────────────────────────
+`╭───────────────────────
 │⚝╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 │⚝┃  — *𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃* —
 │⚝┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 │⚝┃ ⛄ *𝗛ola, ${taguser}*
 │⚝╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰───────────────────────────
+╰────────────────────────
 
-╭──────────────────────────
+╭───────────────────────
 │⚝╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 │⚝┃ *_𝐌𝐄𝐍𝐔 +𝟏𝟖_*
 │⚝┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
@@ -66,7 +66,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
 │⚝┣ ⛄  _${usedPrefix}hentaisearch *<texto>*_
 │⚝┃ © 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 | 𝐁𝐲 𝐀𝐋𝐒
 │⚝╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰───────────────────────────`.trim();
+╰───────────────────────`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
