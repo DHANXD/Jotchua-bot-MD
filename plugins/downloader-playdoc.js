@@ -4,28 +4,37 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Lumi Athena - SMOKE IT OFF! ☆ feat. jnhygs* `;
+  if (!text) throw `_𝐍𝐎𝐌𝐁𝐑𝐄 𝐃𝐄 𝐋𝐀 𝐂𝐀𝐍𝐂𝐈𝐎𝐍 𝐅𝐀𝐋𝐓𝐀𝐍𝐓𝐄, 𝐈𝐍𝐆𝐑𝐄𝐒𝐄 𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 + 𝐄𝐋 𝐍𝐎𝐌𝐁𝐑𝐄/𝐓𝐈𝐓𝐔𝐋𝐎 𝐃𝐄 𝐔𝐍𝐀 𝐂𝐀𝐍𝐂𝐈𝐎𝐍_\n\n* _𝐄𝐉𝐄𝐌𝐏𝐋𝐎_:\n${usedPrefix + command} Lumi Athena - SMOKE IT OFF! ☆ feat. jnhygs*`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
     if (command === 'play3' || command == 'playdoc') {
-      additionalText = 'audio 🔊';
+      additionalText = 'audio ';
     } else if (command === 'play4' || command == 'playdoc2') {
-      additionalText = 'video 🎥';
+      additionalText = 'video ';
     }
     const texto1 = `
-*╭⚊⚊⚊⌈🔊 YOUTUBE DOC 🔊⌋*\n┃
-┃☰ *Titulo:* ${yt_play[0].title}
-┃☰ *Publicado:* ${yt_play[0].ago}
-┃☰ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-┃☰ *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-┃☰ *Autor:* ${yt_play[0].author.name}
-┃☰ *Canal:* ${yt_play[0].author.url}
-┃☰ *ID:* ${yt_play[0].videoId}
-┃☰ *Tipo:* ${yt_play[0].type}
-┃☰ *Link:* ${yt_play[0].url}\n┃
-┃☰ *_Enviando ${additionalText}, aguarde un momento．．．_*
-╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊`.trim();
+*_𝙹𝚘𝚝𝚌𝚑𝚞𝚊-𝙱𝚘𝚝_* | *_𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝙲𝚄𝙼𝙴𝙽𝚃𝙾_*\n
+ ➸ *Titulo:* ${yt_play[0].title}
+ 
+➸ *Publicado:* ${yt_play[0].ago}
+
+➸ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
+
+➸ *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
+
+➸ *Autor:* ${yt_play[0].author.name}
+
+➸ *Canal:* ${yt_play[0].author.url}
+
+➸ *ID:* ${yt_play[0].videoId}
+
+➸ *Tipo:* ${yt_play[0].type}
+
+➸ *Link:* ${yt_play[0].url}\n
+
+*_Enviando ${additionalText}, aguarde un momento．．．_*
+`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
@@ -50,7 +59,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
             conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*', m);
+            await conn.reply(m.chat, '*𝐄𝐑𝐑𝐎𝐑 𝐍𝐎 𝐅𝐔𝐄 𝐏𝐎𝐒𝐈𝐁𝐋𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑 𝐄𝐋 𝐀𝐔𝐃𝐈𝐎*', m);
           }
         }
       }
