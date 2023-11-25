@@ -23,54 +23,54 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │☢╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 │☢┃  — *𝐣𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃* —
 │☢┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│☢┃ *𝗛ola, ${taguser}*
+│☢┃ ⛄ *𝗛ola, ${taguser}*
 │☢╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ╰────────────────────────
 
 ╭───────────────────────
 │☢╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│☢┃ *<𝐌𝐄𝐍𝐔 𝐀𝐍𝐈𝐌𝐄>*
+│☢┃ *_𝐌𝐄𝐍𝐔 𝐀𝐍𝐈𝐌𝐄_*
 │☢┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│☢┣ ☾  _${usedPrefix}lolivid_
-│☢┣ ☾  _${usedPrefix}loli_
-│☢┣ ☾  _${usedPrefix}ppcouple_
-│☢┣ ☾  _${usedPrefix}neko_
-│☢┣ ☾  _${usedPrefix}waifu_
-│☢┣ ☾  _${usedPrefix}akira_
-│☢┣ ☾  _${usedPrefix}akiyama_
-│☢┣ ☾  _${usedPrefix}anna_
-│☢┣ ☾  _${usedPrefix}asuna_
-│☢┣ ☾  _${usedPrefix}ayuzawa_
-│☢┣ ☾  _${usedPrefix}boruto_
-│☢┣ ☾  _${usedPrefix}chiho_
-│☢┣ ☾  _${usedPrefix}chitoge_
-│☢┣ ☾  _${usedPrefix}deidara_
-│☢┣ ☾  _${usedPrefix}erza_
-│☢┣ ☾  _${usedPrefix}elaina_
-│☢┣ ☾  _${usedPrefix}eba_
-│☢┣ ☾  _${usedPrefix}emilia_
-│☢┣ ☾  _${usedPrefix}hestia_
-│☢┣ ☾  _${usedPrefix}hinata_
-│☢┣ ☾  _${usedPrefix}inori_
-│☢┣ ☾  _${usedPrefix}isuzu_
-│☢┣ ☾  _${usedPrefix}itachi_
-│☢┣ ☾  _${usedPrefix}itori_
-│☢┣ ☾  _${usedPrefix}kaga_
-│☢┣ ☾  _${usedPrefix}kagura_
-│☢┣ ☾  _${usedPrefix}kaori_
-│☢┣ ☾  _${usedPrefix}keneki_
-│☢┣ ☾  _${usedPrefix}kotori_
-│☢┣ ☾  _${usedPrefix}kurumi_
-│☢┣ ☾  _${usedPrefix}madara_
-│☢┣ ☾  _${usedPrefix}mikasa_
-│☢┣ ☾  _${usedPrefix}miku_
-│☢┣ ☾  _${usedPrefix}minato_
-│☢┣ ☾  _${usedPrefix}naruto_
-│☢┣ ☾  _${usedPrefix}nezuko_
-│☢┣ ☾  _${usedPrefix}sagiri_
-│☢┣ ☾  _${usedPrefix}sasuke_
-│☢┣ ☾  _${usedPrefix}sakura_
-│☢┣ ☾  _${usedPrefix}cosplay_
+│☢┣ ⛄  _${usedPrefix}lolivid_
+│☢┣ ⛄  _${usedPrefix}loli_
+│☢┣ ⛄  _${usedPrefix}ppcouple_
+│☢┣ ⛄  _${usedPrefix}neko_
+│☢┣ ⛄  _${usedPrefix}waifu_
+│☢┣ ⛄  _${usedPrefix}akira_
+│☢┣ ⛄  _${usedPrefix}akiyama_
+│☢┣ ⛄  _${usedPrefix}anna_
+│☢┣ ⛄  _${usedPrefix}asuna_
+│☢┣ ⛄  _${usedPrefix}ayuzawa_
+│☢┣ ⛄  _${usedPrefix}boruto_
+│☢┣ ⛄  _${usedPrefix}chiho_
+│☢┣ ⛄  _${usedPrefix}chitoge_
+│☢┣ ⛄  _${usedPrefix}deidara_
+│☢┣ ⛄  _${usedPrefix}erza_
+│☢┣ ⛄  _${usedPrefix}elaina_
+│☢┣ ⛄  _${usedPrefix}eba_
+│☢┣ ⛄  _${usedPrefix}emilia_
+│☢┣ ⛄  _${usedPrefix}hestia_
+│☢┣ ⛄  _${usedPrefix}hinata_
+│☢┣ ⛄  _${usedPrefix}inori_
+│☢┣ ⛄  _${usedPrefix}isuzu_
+│☢┣ ⛄  _${usedPrefix}itachi_
+│☢┣ ⛄  _${usedPrefix}itori_
+│☢┣ ⛄  _${usedPrefix}kaga_
+│☢┣ ⛄  _${usedPrefix}kagura_
+│☢┣ ⛄  _${usedPrefix}kaori_
+│☢┣ ⛄  _${usedPrefix}keneki_
+│☢┣ ⛄  _${usedPrefix}kotori_
+│☢┣ ⛄  _${usedPrefix}kurumi_
+│☢┣ ⛄  _${usedPrefix}madara_
+│☢┣ ⛄  _${usedPrefix}mikasa_
+│☢┣ ⛄  _${usedPrefix}miku_
+│☢┣ ⛄  _${usedPrefix}minato_
+│☢┣ ⛄  _${usedPrefix}naruto_
+│☢┣ ⛄  _${usedPrefix}nezuko_
+│☢┣ ⛄  _${usedPrefix}sagiri_
+│☢┣ ⛄  _${usedPrefix}sasuke_
+│☢┣ ⛄  _${usedPrefix}sakura_
+│☢┣ ⛄  _${usedPrefix}cosplay_
 │☢┃ © 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 | 𝐁𝐲 𝐀𝐋𝐒
 │☢╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ╰────────────────────────`.trim();
