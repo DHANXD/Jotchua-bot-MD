@@ -22,7 +22,9 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       const {name, size, date, mime, link} = res;
       const caption = `
 *𝐍𝐎𝐌𝐁𝐑𝐄:* ${name}
+
 *𝐏𝐄𝐒𝐎:* ${size}
+
 *𝐓𝐈𝐏𝐎:* ${mime}
 
 *𝐄𝐒𝐏𝐄𝐑𝐄 𝐄𝐍 𝐋𝐎 𝐐𝐔𝐄 𝐄𝐒 𝐄𝐍𝐕𝐈𝐀𝐃𝐎 𝐒𝐔 𝐀𝐑𝐂𝐇𝐈𝐕𝐎. . . .* 
@@ -30,7 +32,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       await m.reply(caption);
       await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
     } catch {
-      await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n* https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
+      await m.reply('*𝐄𝐑𝐑𝐎𝐑, 𝐕𝐔𝐄𝐋𝐕𝐀 𝐀 𝐈𝐍𝐓𝐄𝐍𝐓𝐀𝐑𝐋𝐎*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n* https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
     }
   }
 };
