@@ -122,7 +122,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   }
 } catch (error) {
     console.log(error)
-    throw '[❗] Error, por favor vuelva a intentarlo.';
+    throw '_𝐄𝐑𝐑𝐎𝐑, 𝐕𝐔𝐄𝐋𝐕𝐀 𝐀 𝐈𝐍𝐓𝐄𝐍𝐓𝐀𝐑𝐋𝐎_';
   }
 };
 handler.help = ['play', 'play2'].map((v) => v + ' < busqueda >');
