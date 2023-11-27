@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     
 𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
 
-          「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
+            「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
      
 ⟼ 𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
 ⟼ 𝙽𝚒𝚟𝚎𝚕: ${level}
@@ -39,7 +39,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ⟼ 𝚃𝚘𝚔𝚎𝚗𝚜: ${joincount}
 ⟼ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 
-         「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」  
+           「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」  
      
  ⟼ _${usedPrefix}owner_
  ⟼ _${usedPrefix}script_
@@ -51,7 +51,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ⟼ *𝘣𝘰𝘵/𝘴𝘶𝘣 𝘣𝘰𝘵:*${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
  
 ${readMore}
-          「 𝐌𝐄𝐍𝐔𝐒 」
+            「 𝐌𝐄𝐍𝐔𝐒 」
            
 ⟼ _${usedPrefix}labiblia_
 ⟼ _${usedPrefix}menuanimes_
@@ -67,8 +67,6 @@ ${readMore}
 │♖╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
 ╰────────────────────────
 ${readMore}
-
-♔
 
 ${readMore}
 ╭───────────────────────
