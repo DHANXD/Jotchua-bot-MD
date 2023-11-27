@@ -27,9 +27,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
 
      「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
-𝙽𝚘𝚖𝚋𝚛𝚎: ${user}
-𝙽𝚒𝚟𝚎𝚕: ${level}
-𝚇𝙿: ${exp}
+     
+⇨𝙽𝚘𝚖𝚋𝚛𝚎: ${name}
+⇨𝙽𝚒𝚟𝚎𝚕: ${level}
+⇨𝚇𝙿: ${exp}
 
 ${readMore}
 ╭───────────────────────
