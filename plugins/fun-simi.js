@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
-    throw '*Proporciona un texto.*\n\n* Ejemplo:* _${usedPrefix + command} Hola Jotchua, ¿cómo estás?';
+    throw `ingrese algun texto para hablar con simismi o el bot\n\n*ejemplo: ${usedPrefix + command} Hola jotchua*`;
   }
 
   try {
