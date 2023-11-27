@@ -22,29 +22,26 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
-`
-    *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃_* 
+`                   ﹃
+    *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃_*
+    ﹄
+    
 𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
 
      「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
      
-⇨𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
-⇨𝙽𝚒𝚟𝚎𝚕: ${level}
-⇨𝚇𝙿: ${exp}
-
+⟼𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
+⟼𝙽𝚒𝚟𝚎𝚕: ${level}
+⟼𝚇𝙿: ${exp}
+⟼𝚁𝚊𝚗𝚐𝚘:
+⟼𝙲𝚘𝚒𝚗𝚜:
+⟼𝚃𝚘𝚔𝚎𝚗𝚜:
+⟼𝙿𝚛𝚎𝚖𝚒𝚞𝚖:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ${readMore}
 ╭───────────────────────
-│✎╭⚊ *_𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_*
-│✎┃ *⛄ 𝙽𝚒𝚟𝚎𝚕:* ${level}
-│✎┃ *⛄ 𝙴𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚒𝚊:* ${exp}
-│✎┃ *⛄ 𝚁𝚊𝚗𝚐𝚘:* ${role}
-│✎┃ *⛄ 𝙳𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜:* ${limit}
-│✎┃ *⛄ 𝙹𝚘𝚝𝚌𝚑𝚞𝚊𝙲𝚘𝚒𝚗𝚜:* ${money}
-│✎┃ *⛄ 𝚃𝚘𝚔𝚎𝚗𝚜:* ${joincount}
-│✎┃ *⛄ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-│✎┃  *⛄ 𝘣𝘰𝘵/𝘴𝘶𝘣 𝘣𝘰𝘵:*${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
-│✎╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+┃  *⛄ 𝘣𝘰𝘵/𝘴𝘶𝘣 𝘣𝘰𝘵:*${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
+╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
+
 ${readMore}
 ╭───────────────────────
 │♖╭⚊ *_𝐒𝐎𝐋𝐔𝐂𝐈𝐎𝐍 𝐀 𝐄𝐑𝐑𝐎𝐑𝐄𝐒_*
