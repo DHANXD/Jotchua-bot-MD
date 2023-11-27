@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
      「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
      
-⇨𝙽𝚘𝚖𝚋𝚛𝚎: ${name}
+⇨𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
 ⇨𝙽𝚒𝚟𝚎𝚕: ${level}
 ⇨𝚇𝙿: ${exp}
 
