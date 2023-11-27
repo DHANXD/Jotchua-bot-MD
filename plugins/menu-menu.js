@@ -23,12 +23,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
 `                   
-    *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃♔わ_*
+         *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃♔わ_*
     
     
 𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
 
-     「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
+          「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
      
 ⟼𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
 ⟼𝙽𝚒𝚟𝚎𝚕: ${level}
@@ -39,7 +39,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ⟼𝚃𝚘𝚔𝚎𝚗𝚜: ${joincount}
 ⟼𝙿𝚛𝚎𝚖𝚒𝚞𝚖:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 
-     「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」  
+         「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」  
      
  ⟼ _${usedPrefix}owner_
  ⟼ _${usedPrefix}script_
