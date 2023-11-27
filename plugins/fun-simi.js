@@ -23,6 +23,6 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 };
 
-handler.command = /^bard$/i;
+handler.command = /^((sim)?simi|bot|alexa|cortana)$/i;
 
 export default handler;
