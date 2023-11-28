@@ -5,7 +5,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `𝐘𝐀 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 \n\n¿𝐐𝐔𝐈𝐄𝐑𝐄 𝐕𝐎𝐋𝐕𝐄𝐑 𝐀 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐑𝐒𝐄?\n\n 𝐔𝐒𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐏𝐀𝐑𝐀 𝐄𝐋𝐈𝐌𝐈𝐍𝐀𝐑 𝐒𝐔 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎\n*${usedPrefix}unreg* <Número de serie>`;
-  if (!Reg.test(text)) throw `*𝐅𝐎𝐑𝐌𝐀𝐓𝐎 𝐈𝐍𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐎*\n\n* 𝐔𝐒𝐎 𝐃𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎: ${usedPrefix + command} nombre.edad*\n* Ejemplo: ${usedPrefix + command} ALS.18*`;
+  if (!Reg.test(text)) throw `*𝐅𝐎𝐑𝐌𝐀𝐓𝐎 𝐈𝐍𝐂𝐎𝐑𝐑𝐄𝐂𝐓𝐎*\n\n* 𝐔𝐒𝐎 𝐃𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎: ${usedPrefix + command} nombre.edad*\n*Ejemplo: ${usedPrefix + command} ALS.18*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*_𝐃𝐄𝐁𝐄𝐒 𝐏𝐎𝐍𝐄𝐑 𝐔𝐍 𝐍𝐎𝐌𝐁𝐑𝐄_*';
   if (!age) throw '*_𝐋𝐀 𝐄𝐃𝐀𝐃 𝐍𝐎 𝐏𝐔𝐄𝐃𝐄 𝐄𝐒𝐓𝐀𝐑 𝐕𝐀𝐂𝐈𝐀_*';
