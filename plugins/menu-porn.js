@@ -20,53 +20,47 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*_𝐋𝐨𝐬 𝐂�
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
-`╭───────────────────────
-│⚝╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│⚝┃  — *𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃* —
-│⚝┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│⚝┃ ⛄ *𝗛ola, ${taguser}*
-│⚝╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+`
+      — *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃_* —
 
-╭───────────────────────
-│⚝╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│⚝┃ *_𝐌𝐄𝐍𝐔 +𝟏𝟖_*
-│⚝┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│⚝┣ ⛄  _${usedPrefix}pack_
-│⚝┣ ⛄  _${usedPrefix}pack2_
-│⚝┣ ⛄  _${usedPrefix}pack3_
-│⚝┣ ⛄  _${usedPrefix}videoxxx_
-│⚝┣ ⛄  _${usedPrefix}videolesbixxx_
-│⚝┣ ⛄  _${usedPrefix}tetas_
-│⚝┣ ⛄  _${usedPrefix}booty_
-│⚝┣ ⛄  _${usedPrefix}ecchi_
-│⚝┣ ⛄  _${usedPrefix}furro_
-│⚝┣ ⛄  _${usedPrefix}imagenlesbians_
-│⚝┣ ⛄  _${usedPrefix}panties_
-│⚝┣ ⛄  _${usedPrefix}pene_
-│⚝┣ ⛄  _${usedPrefix}porno_
-│⚝┣ ⛄  _${usedPrefix}randomxxx_
-│⚝┣ ⛄  _${usedPrefix}pechos_
-│⚝┣ ⛄  _${usedPrefix}yaoi_
-│⚝┣ ⛄  _${usedPrefix}yaoi2_
-│⚝┣ ⛄  _${usedPrefix}yuri_
-│⚝┣ ⛄  _${usedPrefix}yuri2_
-│⚝┣ ⛄  _${usedPrefix}trapito_
-│⚝┣ ⛄  _${usedPrefix}hentai_
-│⚝┣ ⛄  _${usedPrefix}nsfwloli_
-│⚝┣ ⛄  _${usedPrefix}nsfworgy_
-│⚝┣ ⛄  _${usedPrefix}nsfwfoot_
-│⚝┣ ⛄  _${usedPrefix}nsfwass_
-│⚝┣ ⛄  _${usedPrefix}nsfwbdsm_
-│⚝┣ ⛄  _${usedPrefix}nsfwcum_
-│⚝┣ ⛄  _${usedPrefix}nsfwero_
-│⚝┣ ⛄  _${usedPrefix}nsfwfemdom_
-│⚝┣ ⛄  _${usedPrefix}nsfwglass_
-│⚝┣ ⛄  _${usedPrefix}hentaipdf *<texto>*_
-│⚝┣ ⛄  _${usedPrefix}hentaisearch *<texto>*_
-│⚝┃ © 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 | 𝐁𝐲 𝐀𝐋𝐒
-│⚝╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰───────────────────────`.trim();
+𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
+
+
+      「 𝐌𝐄𝐍𝐔 +𝟏𝟖 」
+      
+⇾ _${usedPrefix}pack_
+⇾ _${usedPrefix}pack2
+⇾ _${usedPrefix}pack3_
+⇾ _${usedPrefix}videoxxx_
+⇾ _${usedPrefix}videolesbixxx_
+⇾ _${usedPrefix}tetas_
+⇾ _${usedPrefix}booty_
+⇾ _${usedPrefix}ecchi_
+⇾ _${usedPrefix}furro_
+⇾ _${usedPrefix}imagenlesbians_
+⇾ _${usedPrefix}panties_
+⇾ _${usedPrefix}pene_
+⇾ _${usedPrefix}porno_
+⇾ _${usedPrefix}randomxxx_
+⇾ _${usedPrefix}pechos_
+⇾ _${usedPrefix}yaoi_
+⇾ _${usedPrefix}yaoi2_
+⇾ _${usedPrefix}yuri_
+⇾ _${usedPrefix}yuri2_ 
+⇾ _${usedPrefix}trapito_
+⇾ _${usedPrefix}hentai_
+⇾ _${usedPrefix}nsfwloli_
+⇾ _${usedPrefix}nsfworgy_
+⇾ _${usedPrefix}nsfwfoot_
+⇾ _${usedPrefix}nsfwass_
+⇾ _${usedPrefix}nsfwbdsm_
+⇾ _${usedPrefix}nsfwcum_
+⇾ _${usedPrefix}nsfwero_
+⇾ _${usedPrefix}nsfwfemdom_
+⇾ _${usedPrefix}nsfwglass_
+⇾ _${usedPrefix}hentaipdf *<texto>*_
+⇾ _${usedPrefix}hentaisearch *<texto>*_
+`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
