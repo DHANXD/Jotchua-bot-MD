@@ -79,7 +79,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*_𝐋𝐨𝐬 𝐂�
     conn.reply(m.chat, '*_𝐄𝐋 𝐌𝐄𝐍𝐔 𝐓𝐈𝐄𝐍𝐄 𝐔𝐍 𝐄𝐑𝐑𝐎𝐑 𝐘 𝐍𝐎 𝐄𝐒 𝐏𝐎𝐒𝐈𝐁𝐋𝐄 𝐄𝐍𝐕𝐈𝐀𝐑𝐋𝐎, 𝐑𝐄𝐏𝐎𝐑𝐓𝐄𝐋𝐎 𝐀𝐋 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓_*', m);
   }
 };
-handler.command = /^(menulabiblia|labiblia|Labiblia)$/i;
+handler.command = /^(menu+18|+18|Menu+18)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
