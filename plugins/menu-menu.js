@@ -2,9 +2,9 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen1;
-    // let vn = './Menu2.jpg'
-    const img = './Menu2.jpg';
+    const pp = menuvid1.mp4;
+    // let vn = './menuvid1.mp4'
+    const img = './menuvid1.mp4';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
