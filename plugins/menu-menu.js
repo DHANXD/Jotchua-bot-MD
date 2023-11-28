@@ -53,19 +53,19 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ${readMore}
             「 𝐌𝐄𝐍𝐔𝐒 」
            
-⟼ _${usedPrefix}menu+18_
+⟼ _${usedPrefix}MenuPorn/porn_
 ⟼ _${usedPrefix}menuanimes_
 ⟼ _${usedPrefix}menuaudios_
 
 ${readMore}
-╭───────────────────────
-│♖╭⚊ *_𝐒𝐎𝐋𝐔𝐂𝐈𝐎𝐍 𝐀 𝐄𝐑𝐑𝐎𝐑𝐄𝐒_*
-│♖┃⛄ Mensajes en espera
-│♖┃ ⛄  _${usedPrefix}fixmsgespera_
-│♖┃⛄ Mensajes en espera (owner)
-│♖┃ ⛄  _${usedPrefix}dsowner_
-│♖╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+
+     「 𝐒𝐎𝐋𝐔𝐂𝐈𝐎𝐍 𝐀 𝐄𝐑𝐑𝐎𝐑𝐄𝐒 」
+     
+⟼ Mensajes en espera
+⟼  _${usedPrefix}fixmsgespera_
+ ⟼Mensajes en espera (owner)
+⟼  _${usedPrefix}dsowner_
+
 ${readMore}
 
 ${readMore}
