@@ -42,7 +42,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
            「 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 」  
      
  ⟼ _${usedPrefix}owner_
- ⟼ _${usedPrefix}script_
+ ⟼ _${usedPrefix}repo_
  ⟼ _${usedPrefix}infobot_
  ⟼ _${usedPrefix}estado_
  ⟼ _${usedPrefix}grupos_
