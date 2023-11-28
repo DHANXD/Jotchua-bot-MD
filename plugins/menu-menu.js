@@ -53,7 +53,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ${readMore}
             「 𝐌𝐄𝐍𝐔𝐒 」
            
-⟼ _${usedPrefix}labiblia_
+⟼ _${usedPrefix}menu+18_
 ⟼ _${usedPrefix}menuanimes_
 ⟼ _${usedPrefix}menuaudios_
 
