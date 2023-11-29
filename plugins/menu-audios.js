@@ -20,23 +20,18 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
-`╭───────────────────────
-│❂╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│❂┃  — *𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃* —
-│❂┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│❂┃ ⛄ *𝗛ola, ${taguser}*
-│❂┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│❂┃ © 𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃 | 𝐁𝐲 𝐀𝐋𝐒
-│❂╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+`
+      *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃_*
 
-╭───────────────────────
-│❂╭⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│❂┃ *_𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒_*
-│❂┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│❂┣*_𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐀𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐏𝐀𝐋𝐀𝐁𝐑𝐀𝐒 𝐎 𝐅𝐑𝐀𝐒𝐄𝐒 𝐒𝐈𝐍 𝐍𝐈𝐍𝐆𝐔𝐍 𝐏𝐑𝐄𝐅𝐈𝐉𝐎 (# , / , *, .)_*
-│❂┣ ⛄  _Quien es tu sempai botsito 7w7_
-│❂┣ ⛄  _Te diagnostico con gay_
+𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
+
+
+
+     「 𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒 」
+
+│*_𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐀𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐏𝐀𝐋𝐀𝐁𝐑𝐀𝐒 𝐎 𝐅𝐑𝐀𝐒𝐄𝐒 𝐒𝐈𝐍 𝐍𝐈𝐍𝐆𝐔𝐍 𝐏𝐑𝐄𝐅𝐈𝐉𝐎 (# , / , *, .)_*
+_Quien es tu sempai botsito 7w7_
+_Te diagnostico con gay_
 │❂┣ ⛄  _No digas eso papu_
 │❂┣ ⛄  _A nadie le importa_
 │❂┣ ⛄  _Fiesta del admin_
@@ -76,9 +71,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │❂┣ ⛄  _Rawr_
 │❂┣ ⛄  _UwU_
 │❂┣ ⛄  _:c_
-│❂┣ ⛄  _a_
-│❂╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+⛄  _a_
+
 `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
