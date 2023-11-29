@@ -54,8 +54,8 @@ ${readMore}
             「 𝐌𝐄𝐍𝐔𝐒 」
            
 ⟼ _${usedPrefix}MenuPorn/porn_
-⟼ _${usedPrefix}menuanimes_
-⟼ _${usedPrefix}menuaudios_
+⟼ _${usedPrefix}menuanimes/animes_
+⟼ _${usedPrefix}menuaudios/audios_
 
 ${readMore}
 
