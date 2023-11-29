@@ -6,7 +6,7 @@ import {instagramdl} from '@bochilteam/scraper';
 import instagramDl from '@sasmeee/igdl';
 import {fileTypeFromBuffer} from 'file-type';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `*𝐈𝐍𝐆𝐑𝐄𝐒𝐄 𝐔𝐍 𝐄𝐍𝐋𝐀𝐂𝐄 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌, 𝐄𝐉𝐄𝐌𝐏𝐋𝐎: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link`;
+  if (!args[0]) throw `_*< DESCARGAS - INSTAGRAM />*_\n\n*[ ℹ️ ] Ingrese un enlace de Instagram.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} https://www.instagram.com/reel/Cc0NuYBg8CR/?utm_source=ig_web_copy_link_`;
   m.reply(global.wait);
   try {
 const img = await instagramDl(args[0]);
@@ -23,7 +23,7 @@ for (let i = 0; i < img.length; i++) {
     const datTa = await instagram.download(args[0]);
     for (const urRRl of datTa) {
       const shortUrRRl = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-      const tXXxt = ` *Url:* ${shortUrRRl}`.trim();
+      const tXXxt = `_*< DESCARGAS - INSTAGRAM />*_\n\n▢ *URL:* _${shortUrRRl}_`.trim();
       conn.sendFile(m.chat, urRRl.url, 'error.mp4', tXXxt, m);
       await new Promise((resolve) => setTimeout(resolve, 10000));
     }
@@ -31,13 +31,13 @@ for (let i = 0; i < img.length; i++) {
       try {
         const resultss = await instagramGetUrl(args[0]).url_list[0];
         const shortUrl2 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-        const txt2 = ` *Url:* ${shortUrl2}`.trim();
+        const txt2 = `_*< DESCARGAS - INSTAGRAM />*_\n\n▢ *URL:* _${shortUrl2}_`.trim();
         await conn.sendFile(m.chat, resultss, 'error.mp4', txt2, m);
       } catch {
         try {
           const resultssss = await instagramdl(args[0]);
           const shortUrl3 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-          const txt4 = ` *Url:* ${shortUrl3}`.trim();
+          const txt4 = `_*< DESCARGAS - INSTAGRAM />*_\n\n▢ *URL:* _${shortUrl3}_`.trim();
           for (const {url} of resultssss) await conn.sendFile(m.chat, url, 'error.mp4', txt4, m);
         } catch {
           try {
@@ -45,10 +45,10 @@ for (let i = 0; i < img.length; i++) {
             const json = await human.json();
             const videoig = json.result;
             const shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${args[0]}`)).text();
-            const txt1 = ` *Url:* ${shortUrl1}`.trim();
+            const txt1 = `_*< DESCARGAS - INSTAGRAM />*_\n\n▢ *URL:* _${shortUrl1}_`.trim();
             await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m);
           } catch {
-            throw `*𝐄𝐑𝐑𝐎𝐑, 𝐕𝐔𝐄𝐋𝐕𝐀 𝐀 𝐈𝐍𝐓𝐄𝐍𝐓𝐀𝐑𝐋𝐎*`;
+            throw `_*< DESCARGAS - INSTAGRAM />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
           }
         }
       }
