@@ -9,11 +9,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   }[(args[0] || '')];
   if (isClose === undefined) {
     throw `
-*[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
+*formato erroneo!!*
 
-*┏━━━❲ ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ ❳━━━┓* 
-*┠┉↯ ${usedPrefix + command} abrir*
-*┠┉↯ ${usedPrefix + command} cerrar*
+ ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾
+${usedPrefix + command} abrir*
+${usedPrefix + command} cerrar*
 `.trim();
   }
   await conn.groupSettingUpdate(m.chat, isClose);
