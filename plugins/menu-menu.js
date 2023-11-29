@@ -69,37 +69,38 @@ ${readMore}
 ${readMore}
 
 ${readMore}
-╭───────────────────────
-│♗╭⚊ *_𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎_*
-│♗┃ ⛄  _${usedPrefix}join *<enlace / link / url>*_
-│♗╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-╰────────────────────────
+    「 𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎 」
+ 
+⟼ _${usedPrefix}join *<enlace / link / url>*_
+
 ${readMore}
-╭───────────────────────
-│♘╭⚊ *_𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓_*
-│♘┃ ⛄  _${usedPrefix}serbot --code_
-│♘┃ ⛄  _${usedPrefix}serbot_
-│♘┃ ⛄  _${usedPrefix}deletebot_
-│♘┃ ⛄  _${usedPrefix}token
-│♘┃ ⛄  _${usedPrefix}stop_
-│♘┃ ⛄  _${usedPrefix}bots_
-│♘┃⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-│♘┃ ⛄  _${usedPrefix}enable restrict_
-│♘┃ ⛄  _${usedPrefix}disable restrict_
-│♘┃ ⛄  _${usedPrefix}enable autoread_
-│♘┃ ⛄  _${usedPrefix}disable autoread_
-│♘┃ ⛄  _${usedPrefix}enable antispam_
-│♘┃ ⛄  _${usedPrefix}disable antispam_
-│♘┃ ⛄  _${usedPrefix}enable anticall_
-│♘┃ ⛄  _${usedPrefix}disable anticall_
-│♘┃ ⛄  _${usedPrefix}enable modoia_
-│♘┃ ⛄  _${usedPrefix}disable modoia_
-│♘┃ ⛄  _${usedPrefix}enable audios_bot_
-│♘┃ ⛄  _${usedPrefix}disable audios_bot_
-│♘┃ ⛄  _${usedPrefix}enable antiprivado_
-│♘┃ ⛄  _${usedPrefix}disable antiprivado_
-│♘╰⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊ 
-╰────────────────────────
+
+    「 𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓 」
+
+⟼ _${usedPrefix}serbot --code_
+⟼ _${usedPrefix}serbot_
+⟼ _${usedPrefix}deletebot_
+⟼ _${usedPrefix}token
+⟼ _${usedPrefix}stop_
+⟼ _${usedPrefix}bots_
+
+   「 𝐄𝐍𝐀𝐁𝐋𝐄 / 𝐃𝐈𝐒𝐀𝐁𝐋𝐄𝐒 𝐁𝐎𝐓 」
+
+⟼ _${usedPrefix}enable restrict_
+⟼ _${usedPrefix}disable restrict_
+⟼ _${usedPrefix}enable autoread_
+⟼ _${usedPrefix}disable autoread_
+⟼ _${usedPrefix}enable antispam_
+⟼ _${usedPrefix}disable antispam_
+⟼ _${usedPrefix}enable anticall_
+⟼ _${usedPrefix}disable anticall_
+⟼ _${usedPrefix}enable modoia_
+⟼ _${usedPrefix}disable modoia_
+⟼ _${usedPrefix}enable audios_bot_
+⟼ _${usedPrefix}disable audios_bot_
+⟼ _${usedPrefix}enable antiprivado_
+⟼ _${usedPrefix}disable antiprivado_
+
 ${readMore}
 ╭───────────────────────
 │♙╭⚊ *_𝐉𝐔𝐄𝐆𝐎𝐒_*
