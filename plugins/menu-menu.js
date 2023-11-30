@@ -23,14 +23,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
 `                   
-         *_𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃♔わ_*
+         *_⛄𝐉𝐨𝐭𝐜𝐡𝐮𝐚-𝐛𝐨𝐭-𝐌𝐃♔わ⛄_*
     
     
 𝗛ola, ${taguser}* Espero que tengas un lindo dia o noche 🐕
 
             「 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 」  
      
-⟼ 𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}*
+⟼ 𝙽𝚘𝚖𝚋𝚛𝚎: ${taguser}
 ⟼ 𝙽𝚒𝚟𝚎𝚕: ${level}
 ⟼ 𝚇𝙿: ${exp}
 ⟼ 𝚁𝚊𝚗𝚐𝚘: ${role}
@@ -77,66 +77,66 @@ ${readMore}
 
     「 𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓 」
 
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}serbot --code_
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}serbot_
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}deletebot_
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}token
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}stop_
-❥꫶ꪆꦿꦼ͜͡⛄͘͜ _${usedPrefix}bots_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}serbot --code_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}serbot_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}deletebot_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}token
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}stop_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}bots_
 
    「 𝐄𝐍𝐀𝐁𝐋𝐄 / 𝐃𝐈𝐒𝐀𝐁𝐋𝐄𝐒 𝐁𝐎𝐓 」
 
-⟼ _${usedPrefix}enable restrict_
-⟼ _${usedPrefix}disable restrict_
-⟼ _${usedPrefix}enable autoread_
-⟼ _${usedPrefix}disable autoread_
-⟼ _${usedPrefix}enable antispam_
-⟼ _${usedPrefix}disable antispam_
-⟼ _${usedPrefix}enable anticall_
-⟼ _${usedPrefix}disable anticall_
-⟼ _${usedPrefix}enable modoia_
-⟼ _${usedPrefix}disable modoia_
-⟼ _${usedPrefix}enable audios_bot_
-⟼ _${usedPrefix}disable audios_bot_
-⟼ _${usedPrefix}enable antiprivado_
-⟼ _${usedPrefix}disable antiprivado_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable restrict_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable restrict_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable autoread_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable autoread_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable antispam_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable antispam_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable anticall_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable anticall_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable modoia_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable modoia_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable audios_bot_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable audios_bot_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}enable antiprivado_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}disable antiprivado_
 
 ${readMore}
 
        「 𝐉𝐔𝐄𝐆𝐎𝐒 」
        
-⟼ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-⟼ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-⟼ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-⟼ _${usedPrefix}prostituto *<nombre / @tag>*_
-⟼ _${usedPrefix}prostituta *<nombre / @tag>*_
-⟼ _${usedPrefix}gay2 *<nombre / @tag>*_
-⟼ _${usedPrefix}lesbiana *<nombre / @tag>*_
-⟼ _${usedPrefix}pajero *<nombre / @tag>*_
-⟼ _${usedPrefix}pajera *<nombre / @tag>*_
-⟼ _${usedPrefix}puto *<nombre / @tag>*_
-⟼ _${usedPrefix}puta *<nombre / @tag>*_
-⟼ _${usedPrefix}manco *<nombre / @tag>*_
-⟼ _${usedPrefix}manca *<nombre / @tag>*_
-⟼ _${usedPrefix}rata *<nombre / @tag>*_
-⟼ _${usedPrefix}love *<nombre / @tag>*_
-⟼ _${usedPrefix}doxear *<nombre / @tag>*_
-⟼ _${usedPrefix}pregunta *<texto>*_
-⟼ _${usedPrefix}suitpvp *<@tag>*_
-⟼ _${usedPrefix}slot *<apuesta>*_
-⟼ _${usedPrefix}ttt *<nombre sala>*_
-⟼ _${usedPrefix}delttt_
-⟼ _${usedPrefix}acertijo_
-⟼ _${usedPrefix}simi *<texto>*_
-⟼ _${usedPrefix}top *<texto>*_
-⟼ _${usedPrefix}topgays_
-⟼ _${usedPrefix}topotakus_
-⟼ _${usedPrefix}formarpareja_
-⟼ _${usedPrefix}verdad_
-⟼ _${usedPrefix}reto_
-⟼ _${usedPrefix}cancion_
-⟼ _${usedPrefix}pista_
-⟼ _${usedPrefix}wordfind_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}ppt *<papel / tijera /piedra>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}prostituto *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}prostituta *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}gay2 *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}lesbiana *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}pajero *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}pajera *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}puto *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}puta *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}manco *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}manca *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}rata *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}love *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}doxear *<nombre / @tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}pregunta *<texto>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}suitpvp *<@tag>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}slot *<apuesta>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}ttt *<nombre sala>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}delttt_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}acertijo_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}simi *<texto>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}top *<texto>*_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}topgays_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}topotakus_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}formarpareja_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}verdad_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}reto_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}cancion_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}pista_
+❥꫶ꪆꦿꦼ͜͡⛄͘͜  _${usedPrefix}wordfind_
 
 ${readMore}
 
